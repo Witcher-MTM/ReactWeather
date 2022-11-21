@@ -1,25 +1,15 @@
-
-  button {
-    font-size: 2em;
-    border: 0;
-    padding: 0;
-    background: none;
-    cursor: pointer;
-  }
-  
-  ul {
-    display: flex;
-    padding: 0;
-  }
-  
-  li {
-    margin: 0 20px;
-    list-style: none;
-    padding: 0;
-  }
+body{
+  background-color: rgb(116, 116, 116);
+}
+h4{
+  text-align: center;
+  background-color: rgba(156, 156, 156, 0.288);
+  border: solid 1px black;
+  user-select: none;
+}
 .weathers{
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   justify-content: center;
   align-items: center;
 }
@@ -31,4 +21,13 @@
   #info{
     background-color: rgba(0, 0, 0, 0.178);
   }
-    
+.city{
+  margin: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+#searchinput{
+  position: fixed;
+}
